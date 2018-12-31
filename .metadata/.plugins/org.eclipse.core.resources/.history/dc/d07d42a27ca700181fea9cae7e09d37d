@@ -1,0 +1,9 @@
+package my;
+
+public class X64System extends X86System
+{
+	public void runProgram64(String program)
+	{
+		System.out.println("运行64位程序");
+	}
+}

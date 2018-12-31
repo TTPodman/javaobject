@@ -1,0 +1,46 @@
+package fileStream;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+
+public class BufferedReaderDemo
+{
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+
+		BufferedWriter bw = null;
+		BufferedReader br = null;
+		try
+		{
+			br = new BufferedReader(new FileReader("C:\\Users\\YANG!\\Desktop\\git仓库.txt"));
+			bw = new BufferedWriter(new FileWriter("C:\\Users\\YANG!\\Desktop\\newtxt.txt"));
+			
+			String result = null;
+			while((result=br.readLine())!=null)
+			{
+				System.out.println(result);
+			}
+			
+		} catch(Exception e)
+		{
+			e.printStackTrace();
+		} finally
+		{
+			try
+			{
+				if(br!=null)
+				{
+					br.close();
+				}
+			} catch(Exception ex)
+			{
+				ex.printStackTrace();
+			}
+		}
+	}
+
+}

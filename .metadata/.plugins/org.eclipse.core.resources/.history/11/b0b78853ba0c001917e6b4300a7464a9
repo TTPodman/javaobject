@@ -1,0 +1,31 @@
+package fileStream;
+
+import java.io.ObjectInputStream;
+
+public class ObjectInputStreamDemo
+{
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+
+		ObjectInputStream ois = null;
+		try
+		{
+			
+		} catch(Exception e)
+		{
+			
+		} finally
+		{
+			try
+			{
+				
+			} catch(Exception ex)
+			{
+				
+			}
+		}
+	}
+
+}

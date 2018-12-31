@@ -1,0 +1,5 @@
+Double=quoted string\=0,0,0,0,0,236,228,126
+Multi-line=comment\=0,0,0,0,0,255,255,255
+Single=quoted string\=0,0,0,0,0,236,228,126
+Single-line=comment\=0,0,0,0,0,255,255,255
+eclipse.preferences.version=1

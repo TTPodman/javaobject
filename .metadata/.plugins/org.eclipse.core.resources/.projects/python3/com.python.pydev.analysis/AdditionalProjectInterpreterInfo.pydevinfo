@@ -1,0 +1,30 @@
+-- VERSION_5
+-- START DISKCACHE_2
+E:\eclipse\.metadata\.plugins\org.eclipse.core.resources\.projects\python3\com.python.pydev.analysis\v2_indexcache
+ch01.001|1541844627908890000|E:\eclipse\python3\src\ch01\001.py
+ch01.__init__|1541751423875105000|E:\eclipse\python3\src\ch01\__init__.py
+ch01.002|1542114329384263000|E:\eclipse\python3\src\ch01\002.py
+ch01.itaretor|1542712264397042000|E:\eclipse\python3\src\ch01\itaretor.py
+-- END DISKCACHE
+-- START DICTIONARY
+4
+3=E:\eclipse\python3\src\ch01\002.py
+1=E:\eclipse\python3\src\ch01\001.py
+2=ch01.001
+4=ch01.002
+-- END DICTIONARY
+-- START TREE 1
+9
+a|1|a!1^15#1*19@
+b|1|b!1^16#1*19@
+col|1|colors!1^9#1*19@
+dic|1|dic1!3^14#1*35@
+exp|1|explode!1^10#1*19@
+f|1|f!3^10#1*35@
+lab|1|labels!1^7#1*19@
+mak|1|make_increament!3^7#5*34@
+siz|1|sizes!1^8#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

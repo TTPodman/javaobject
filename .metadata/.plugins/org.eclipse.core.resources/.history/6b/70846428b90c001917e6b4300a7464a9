@@ -1,0 +1,39 @@
+package fileStream;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
+public class ObjectOutputStreamDemo
+{
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+
+		ObjectOutputStream obs = null;
+		try
+		{
+			obs = new ObjectOutputStream(new FileOutputStream("test.tmp"));
+			obs.writeObject(new Employee(2017001));
+			obs.writeObject(new Employee(2017002));
+			obs.writeObject(new Employee(2017003));
+			obs.writeObject(new Employee(2017004));
+			obs.writeObject(new Employee(2017005));
+			obs.writeObject(new Employee(2017006));
+			obs.writeObject(new Employee(2017007));
+			obs.writeObject(new Employee(2017008));
+			
+			
+		}
+	}
+
+}
+
+
+
+
+
+
+
+

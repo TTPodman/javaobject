@@ -1,0 +1,37 @@
+package fileStream;
+
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+
+public class ObjectInputStreamDemo
+{
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+
+		ObjectInputStream ois = null;
+		try
+		{
+			ois = new ObjectInputStream(new FileInputStream("test.tmp"));
+			Object obj = ois.readObject();
+			Employee emp = (Employee)obj;
+			
+			System.out.println(emp.getUserId()+", "+emp.getUserName());
+			
+		} catch(Exception e)
+		{
+			e.printStackTrace();
+		} finally
+		{
+			try
+			{
+				
+			} catch(Exception ex)
+			{
+				ex.printStackTrace();
+			}
+		}
+	}
+
+}

@@ -1,0 +1,59 @@
+package collection;
+
+import java.util.*;
+
+public class ArrayListDemo
+{
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+
+		ArrayList<String> arrayList = new ArrayList<String>();
+		
+		arrayList.add("aaa");
+		arrayList.add("bbb");
+		arrayList.add("ccc");
+		arrayList.add("ddd");
+		arrayList.add("eee");
+		arrayList.add("fff");
+		arrayList.add("ggg");
+		
+		/*
+		 * for in 遍历
+		 */
+		for(String string:arrayList)
+		{
+			System.out.print(string+" ");
+		}
+		
+		System.out.println("*******************");
+		
+		
+		/*
+		 * Iterator遍历
+		 */
+		Iterator<String> iterator = arrayList.iterator();
+		int i = 0;
+		String string = null;
+		while(iterator.hasNext())
+		{
+			string = iterator.next();
+			System.out.print(string+",");
+			i++;
+			
+			
+		}
+	}
+
+}
+
+
+
+
+
+
+
+
+
+

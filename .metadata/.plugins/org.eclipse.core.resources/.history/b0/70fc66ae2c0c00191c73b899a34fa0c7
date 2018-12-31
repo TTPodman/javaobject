@@ -1,0 +1,43 @@
+package collection;
+
+import java.util.*;
+
+public class HashMapDemo
+{
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+
+		HashMap<String, Integer> hashMap = new HashMap<String, Integer>();
+		hashMap.put("aaa", new Integer(111));
+		hashMap.put("bbb", new Integer(222));
+		hashMap.put("ccc", new Integer(333));
+		hashMap.put("ddd", new Integer(444));
+		hashMap.put("fff", new Integer(555));
+		hashMap.put("ggg", new Integer(666));
+		hashMap.put("hhh", new Integer(777));
+		hashMap.put("iii", new Integer(888));
+		hashMap.put("jjj", new Integer(999));
+		hashMap.put("kkk", new Integer(1000));
+		hashMap.put("lll", new Integer(1111));
+		
+		Set<Map.Entry<String, Integer>> set = hashMap.entrySet();
+		for(Map.Entry<String, Integer> entry:set)
+		{
+			System.out.println(entry.getKey()+":"+entry.getValue());
+		}
+		
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+
